@@ -1,60 +1,59 @@
-git --version - версия git
+## Инструкция по системе контроля версий Git
+---
+**`git --version`** - версия git
 
-git init - Позволяет проинициализировать репозиторий в текущей папке
+**`git init`** - Позволяет проинициализировать репозиторий в текущей папке
 
-git status - Показывает текущий статус(свойства папки)
+**`git status` -** Показывает текущий статус(свойства папки)
 
-git add - добавить файл в репозиторий Отслеживает изменения файлов
+**`git add`** - добавить файл в репозиторий Отслеживает изменения файлов
 
-git add index.html  — добавляет index.html
+> `git add index.html` — добавляет index.html
 
-git add . — добавляет все файлы
+> `git add` . — добавляет все файлы
 
-git commit -m "добавил файл” - добавляет изменений в репозиторий и комментарий( -m ) к сохранению 
+**`git commit -m "добавил файл”` -** добавляет изменений в репозиторий и комментарий(**-m**) к сохранению 
 
-git log oneline - журнал изменений
+**`git log oneline` -** журнал изменений
 
-git chekout 87b2 - возвращение к определенной версии имя версии проверить в журнале
+**`git chekout 87b2` -** возвращение к определенной версии имя версии проверить в журнале. Переключается на другую ветку
 
-Переключается на другую ветку
+> `git checkout branch-name` — переключается на последний коммит в ветке branch-name
 
-git checkout branch-name  — переключается на последний коммит в ветке branch-name
+> `git checkout -b branch-name` — создает и переключается на ветку branch-name
 
-git checkout -b branch-name  — создает и переключается на ветку branch-name
+**`git diff` -** показывает отличие сохраненного файла commit
 
-git diff - показывает отличие сохраненного файла commit
+**`git branch` -** Работа с ветками в репозитории
 
-git branch - Работа с ветками в репозитории
+> `git branch` — показывает список веток
+> 
 
-git branch  — показывает список веток
+> `git branch branch-name` — создает новую ветку branch-name
 
+> `git branch -D branch-name` — удаляет ветку branch-name
 
-git branch branch-name  — создает новую ветку branch-name
+**`git merge` -** Совмещает текущую ветку с выбранной
 
+> `git merge branch-name` — совмещает текущую ветку с branch-name
+> 
 
-git branch -D branch-name  — удаляет ветку branch-name
- 
+**`git config` -** Конфигурация и параметры git
 
-git merge - Совмещает текущую ветку с выбранной
+> `git config --global user.name` — Показывает имя пользователя
+> 
 
-git merge branch-name  — совмещает текущую ветку с branch-name
+> `git config --global user.name 'new user'` — Изменяет имя пользователя
+> 
 
-git config - Конфигурация и параметры git
+> `git config --global user.email` — Показывает email пользователя
+> 
 
-git config --global user.name  — Показывает имя пользователя
- 
+> `git config --global user.email 'test@mail.ru'` — Изменяет email пользователя
+> 
 
-git config --global user.name 'new user'  — Изменяет имя пользователя
- 
+**`git push` -** Заливает текущие локальные коммиты в удаленный репозиторий
 
-git config --global user.email  — Показывает email пользователя
- 
+**`git pull` -** Забирает изменения с удаленного репозитория в локальный
 
-git config --global user.email 'test@mail.ru'  — Изменяет email пользователя
- 
-
-git push - Заливает текущие локальные коммиты в удаленный репозиторий
-
-git pull - Забирает изменения с удаленного репозитория в локальный
-
-git clone - Клонирует проект с удаленного репозитория
+**`git clone` -** Клонирует проект с удаленного репозитория
