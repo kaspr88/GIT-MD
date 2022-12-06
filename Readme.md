@@ -13,7 +13,7 @@
 
 **`git add`** - добавить файл в репозиторий Отслеживает изменения файлов
 
-> `git add index.html` — добавляет index.html
+> `git add index.html` — добавляет index.html(Можно использовать Tab)
 
 > `git add` . — добавляет все файлы
 
