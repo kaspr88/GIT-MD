@@ -67,6 +67,12 @@
 
 **`git rebase --abort`** - Отмена редактирование коммита
 
+Команды для залики репозитория на Guthub
+**`git remote add origin https://github.com/kaspr88/GIT-MD.git`**
+
+**`git branch -M main`**
+
+**`git push -u origin main`**
 
 <details>
 <summary>Чтоб не скучтно было))</summary>
